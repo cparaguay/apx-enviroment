@@ -1,0 +1,65 @@
+version: '3.6'
+
+services:
+    apx-local:
+        image: dalozz/apx-lin64-7.1.0:2.0
+        restart: on-failure
+        ports:
+          - "8101:8101"
+          - "8105:8105"
+        networks:
+            - web-tier
+            - db-tier
+        entrypoint: sh startOnline.sh
+        tty: true
+        volumes:
+            - ./ephemeral/apx/dirBaseEjecucion:/ENTORNO_LOCAL_APX/dirBaseEjecucion
+            - ./ephemeral/apx/dirBaseRepositorio:/ENTORNO_LOCAL_APX/dirBaseRepositorio
+            - ./ephemeral/apx/standalone.xml:/ENTORNO_LOCAL_APX/JBOSS/standalone/configuration/standalone.xml
+            - ./ephemeral/apx/logs:/ENTORNO_LOCAL_APX/logs
+
+    dboracle:
+        image: dalozz/oracle-xe-11g
+        restart: on-failure
+        environment:
+            - ORACLE_ALLOW_REMOTE=true
+            - NLS_LANG=AMERICAN_AMERICA.AL32UTF8
+        ports:
+            - "1521:1521"
+        networks:
+            - db-tier
+        volumes:
+            - ./ephemeral/oracle/:/docker-entrypoint-initdb.d/
+
+    server-web-mock:
+        image: rodolpheche/wiremock
+        restart: on-failure
+        environment:
+            - u=root
+        ports:
+            - "9091:8080"
+        volumes:
+            - ./wiremock/:/home/wiremock
+        networks:
+            - web-tier
+
+    mongo:
+        image: mongo
+        restart: on-failure
+        environment:
+            MONGO_INITDB_ROOT_USERNAME: root
+            MONGO_INITDB_ROOT_PASSWORD: example
+            MONGO_INITDB_DATABASE: BMG_PCTD_HIRING_PROPENSITY_EVENT
+        ports:
+            - "27017:27017"
+        networks:
+            - db-tier
+            - web-tier
+        volumes:
+            - ./ephemeral/mongo/init_bmg_pctd_hiring_propensity_event.js:/docker-entrypoint-initdb.d/init_bmg_pctd_hiring_propensity_event.js
+
+networks:
+    web-tier:
+        driver: bridge
+    db-tier:
+        driver: bridge

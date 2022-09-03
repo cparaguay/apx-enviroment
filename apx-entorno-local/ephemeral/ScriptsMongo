@@ -1,0 +1,165 @@
+//Creando BDMongo
+use BMG_PPGS_PE_RISK;
+
+//Creando Usuario
+db.createUser(
+  {
+    user: "keikurono",
+    pwd: "123456",
+    roles: [
+      { role: "readWrite", db: "BMG_PPGS_PE_RISK" },
+      {role: "userAdmin" , db:"BMG_PPGS_PE_RISK"}
+    ]
+  }
+);
+
+//Creando Coleccion
+db.createCollection("C_PPGS_RISK_USERS");
+
+//INSERTANDO 5 REGISTROS 25.- BANK.TERRITORIAL Y PERFIL_RIESGO - 5 RESULTADOS
+
+db.C_PPGS_RISK_USERS.insert({
+    name  : "document_name",
+    user_id : "1001",
+    employee_functional_profile_id : "PUC044_0006",
+    main_territory_id : "7001",
+    record_status_type : "document_title",
+    creation_user_id : "document_title",
+    creation_date : "document_title",
+    user_audit_id : "document_title",
+    audit_date : "document_title"
+
+});
+
+db.C_PPGS_RISK_USERS.insert({
+    name  : "document_name",
+    user_id : "1002",
+    employee_functional_profile_id : "PUC044_0006",
+    main_territory_id : "7001",
+    record_status_type : "document_title",
+    creation_user_id : "document_title",
+    creation_date : "document_title",
+    user_audit_id : "document_title",
+    audit_date : "document_title"
+
+});
+
+db.C_PPGS_RISK_USERS.insert({
+    name  : "document_name",
+    user_id : "1003",
+    employee_functional_profile_id : "PUC044_0006",
+    main_territory_id : "7001",
+    record_status_type : "document_title",
+    creation_user_id : "document_title",
+    creation_date : "document_title",
+    user_audit_id : "document_title",
+    audit_date : "document_title"
+
+});
+
+db.C_PPGS_RISK_USERS.insert({
+    name  : "document_name",
+    user_id : "1004",
+    employee_functional_profile_id : "PUC044_0006",
+    main_territory_id : "7001",
+    record_status_type : "document_title",
+    creation_user_id : "document_title",
+    creation_date : "document_title",
+    user_audit_id : "document_title",
+    audit_date : "document_title"
+
+});
+
+db.C_PPGS_RISK_USERS.insert({
+    name  : "document_name",
+    user_id : "1005",
+    employee_functional_profile_id : "PUC044_0006",
+    main_territory_id : "7001",
+    record_status_type : "document_title",
+    creation_user_id : "document_title",
+    creation_date : "document_title",
+    user_audit_id : "document_title",
+    audit_date : "document_title"
+
+});
+
+// 2 RESULTADOS 22.- PERFIL_RIESGO, BRANCH.ID Y BANK.TERRITORIAL - 2 RESULTADOS
+db.C_PPGS_RISK_USERS.insert({
+    name  : "document_name",
+    user_id : "1006",
+    employee_functional_profile_id : "PUC044_0005",
+    main_territory_id : "7002",
+    record_status_type : "document_title",
+    creation_user_id : "document_title",
+    creation_date : "document_title",
+    user_audit_id : "document_title",
+    audit_date : "document_title"
+
+});
+
+db.C_PPGS_RISK_USERS.insert({
+    name  : "document_name",
+    user_id : "1007",
+    employee_functional_profile_id : "PUC044_0005",
+    main_territory_id : "7002",
+    record_status_type : "document_title",
+    creation_user_id : "document_title",
+    creation_date : "document_title",
+    user_audit_id : "document_title",
+    audit_date : "document_title"
+
+});
+
+// 1 RESULTADO 23.- PERFIL_RIESGO, ROLE.ID Y BANK.TERRITORIAL - 1 RESULTADOS
+db.C_PPGS_RISK_USERS.insert({
+    name  : "document_name",
+    user_id : "1008",
+    employee_functional_profile_id : "PUC044_0004",
+    main_territory_id : "7003",
+    record_status_type : "document_title",
+    creation_user_id : "document_title",
+    creation_date : "document_title",
+    user_audit_id : "document_title",
+    audit_date : "document_title"
+
+});
+
+// 3 RESULTADOS 24.- PERFIL_RIESGO , BRANCH.ID, ROLE.ID Y BANK.TERRITORIAL - 3 RESULTADOS
+db.C_PPGS_RISK_USERS.insert({
+    name  : "document_name",
+    user_id : "1009",
+    employee_functional_profile_id : "PUC044_0003",
+    main_territory_id : "7004",
+    record_status_type : "document_title",
+    creation_user_id : "document_title",
+    creation_date : "document_title",
+    user_audit_id : "document_title",
+    audit_date : "document_title"
+
+});
+
+db.C_PPGS_RISK_USERS.insert({
+    name  : "document_name",
+    user_id : "1010",
+    employee_functional_profile_id : "PUC044_0003",
+    main_territory_id : "7004",
+    record_status_type : "document_title",
+    creation_user_id : "document_title",
+    creation_date : "document_title",
+    user_audit_id : "document_title",
+    audit_date : "document_title"
+
+});
+
+db.C_PPGS_RISK_USERS.insert({
+    name  : "document_name",
+    user_id : "1011",
+    employee_functional_profile_id : "PUC044_0003",
+    main_territory_id : "7004",
+    record_status_type : "document_title",
+    creation_user_id : "document_title",
+    creation_date : "document_title",
+    user_audit_id : "document_title",
+    audit_date : "document_title"
+
+});

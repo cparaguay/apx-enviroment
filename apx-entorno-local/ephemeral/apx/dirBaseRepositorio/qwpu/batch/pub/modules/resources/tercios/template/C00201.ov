@@ -1,0 +1,169 @@
+ -'&&OverView OGL (ISIS GesmbH 1993-2002)'                                      
+ -'&& OverView Windows '                                                        
+ -'&& Compiled : Oct 14 2002'                                                   
+ -'&& SYSTEM          = MVS'                                                    
+ -'&& OGL VERSION     = 370'                                                    
+ -'&& PELS PRO DOT    = 2:1'                                                    
+ -'&& HOR. SNAPPING   = 1.00'                                                   
+ -'&& VERT. SNAPPING  = 1.00'                                                   
+ -'&& LINE_THICKNESS  = MEDIUM'                                                 
+ -'&& LINE_TYPE       = SOLID'                                                  
+ -'&& SHADE_PATTERN   = '                                                       
+ -'&& SHADE_TYPE      = '                                                       
+ -'&& ORIENTATION     = 0'                                                      
+ -'&& FORMAT          = MODERN'                                                 
+ -'&& HOR. PLACEMENT  = CENTER'                                                 
+ -'&& VERT. PLACEMENT = CENTER'                                                 
+ -'&& HOR. UNIT       = MM'                                                     
+ -'&& VERT. UNIT      = MM'                                                     
+ -'&& LINE SPACING    = AUTO'                                                   
+ -'&& CONDENSED WRITE = NOT'                                                    
+ -'&& FAST DRAWING    = 0'                                                      
+ -'&& WORD WRAPPING   = NOT'                                                    
+                                                                                
+                                                                                
+  SETUNITS 1.00 MM 1.00 MM                                                      
+      LINESP 6.00 LPI ;                                                         
+  OVERLAY C00201                                                                
+      SIZE 210.00 MM 297.00 MM                                                  
+      OFFSET 0.00 IN 0.00 IN ;                                                  
+ -''                                                                            
+  SETUNITS 1.00 PEL 1.00 PEL                                                    
+      LINESP 6.00 LPI ;                                                         
+  CONTROL REPLACE ALL NOSUMMARY ;                                               
+  ORIENT 0 ;                                                                    
+                                                                                
+  FONT GT24 GT24 ;                                                              
+  FONT H22061 H22061  DDNAME FONTCORE ;                                         
+  FONT H22071 H22071  DDNAME FONTCORE ;                                         
+  FONT H42001 H42001  DDNAME FONTCORE ;                                         
+  FONT GT5S GT5S ;                                                              
+                                                                                
+  SEGMENT LBVAA1 LBVAA1 ;                                                       
+                                                                                
+                                                                                
+  POSITION ABSOLUTE 4.00 MM ABSOLUTE 34.00 MM ;                                 
+  SETTEXT 0 MODERN LEFT AUTO                                                    
+      LINE H22071 SOSI2 NOUNDERLINE CHAR                                        
+        'Titulares:'                                                            
+           ;                                                                    
+  POSITION ABSOLUTE 60.00 MM ABSOLUTE 15.00 MM ;                                
+  SETTEXT 0 MODERN CENTER AUTO                                                  
+      LINE H42001 SOSI2 NOUNDERLINE CHAR                                        
+        'EXTRACTO MENSUAL DE  CUENTAS PERSONALES'                               
+           ;                                                                    
+  POSITION ABSOLUTE 3.00 MM ABSOLUTE 44.00 MM ;                                 
+  SETTEXT 0 MODERN CENTER AUTO                                                  
+      LINE H22071 SOSI2 NOUNDERLINE CHAR                                        
+        'F.Oper.'                                                               
+           ;                                                                    
+  POSITION ABSOLUTE 40.00 MM ABSOLUTE 44.00 MM ;                                
+  SETTEXT 0 MODERN CENTER AUTO                                                  
+      LINE H22071 SOSI2 NOUNDERLINE CHAR                                        
+        'Concepto'                                                              
+           ;                                                                    
+  POSITION ABSOLUTE 15.00 MM ABSOLUTE 44.00 MM ;                                
+  SETTEXT 0 MODERN CENTER AUTO                                                  
+      LINE H22071 SOSI2 NOUNDERLINE CHAR                                        
+        'F.Valor'                                                               
+           ;                                                                    
+  POSITION ABSOLUTE 140.00 MM ABSOLUTE 44.00 MM ;                               
+  SETTEXT 0 MODERN CENTER AUTO                                                  
+      LINE H22071 SOSI2 NOUNDERLINE CHAR                                        
+        'Importe'                                                               
+           ;                                                                    
+  POSITION ABSOLUTE 110.00 MM ABSOLUTE 277.00 MM ;                              
+  SETTEXT 0 MODERN CENTER AUTO                                                  
+      LINE H22061 SOSI2 NOUNDERLINE CHAR                                        
+        'SALDO A NUESTRO FAVOR'                                                 
+           ;                                                                    
+  POSITION ABSOLUTE 165.00 MM ABSOLUTE 277.00 MM ;                              
+  SETTEXT 0 MODERN CENTER AUTO                                                  
+      LINE H22061 SOSI2 NOUNDERLINE CHAR                                        
+        'SALDO A SU FAVOR'                                                      
+           ;                                                                    
+  POSITION ABSOLUTE 2.00 MM ABSOLUTE 271.00 MM ;                                
+  DRAWRULE ACROSS 202.00 MM 2 SOLID ;                                           
+  POSITION ABSOLUTE 188.00 MM ABSOLUTE 28.00 MM ;                               
+  SETTEXT 0 MODERN CENTER AUTO                                                  
+      LINE H22061 SOSI2 NOUNDERLINE CHAR                                        
+        'HOJA'                                                                  
+           ;                                                                    
+  POSITION ABSOLUTE 14.00 MM ABSOLUTE 46.00 MM ;                                
+  DRAWRULE DOWN 225.00 MM 1 SOLID ;                                             
+  POSITION ABSOLUTE 127.00 MM ABSOLUTE 46.00 MM ;                               
+  DRAWRULE DOWN 225.00 MM 1 SOLID ;                                             
+  POSITION ABSOLUTE 161.00 MM ABSOLUTE 46.00 MM ;                               
+  DRAWRULE DOWN 225.00 MM 1 SOLID ;                                             
+  SETUNITS 1.00 MM 1.00 MM                                                      
+      LINESP 6.00 LPI ;                                                         
+  POSITION ABSOLUTE 163.00 MM ABSOLUTE 22.00 MM ;                               
+  SETTEXT 0 MODERN CENTER AUTO                                                  
+      LINE H22071 SOSI2 NOUNDERLINE CHAR                                        
+        'Fecha de emisión:'                                                     
+           ;                                                                    
+  POSITION ABSOLUTE 4.00 MM ABSOLUTE 28.00 MM ;                                 
+  SETTEXT 0 MODERN CENTER AUTO                                                  
+      LINE H22071 SOSI2 NOUNDERLINE CHAR                                        
+        'Código Cuenta Cliente:'                                                
+           ;                                                                    
+  POSITION ABSOLUTE 27.00 MM ABSOLUTE 46.00 MM ;                                
+  DRAWRULE DOWN 225.00 MM 1 SOLID ;                                             
+  POSITION ABSOLUTE 175.00 MM ABSOLUTE 44.00 MM ;                               
+  SETTEXT 0 MODERN CENTER AUTO                                                  
+      LINE H22071 SOSI2 NOUNDERLINE CHAR                                        
+        'Saldo'                                                                 
+           ;                                                                    
+  POSITION ABSOLUTE 6.00 MM ABSOLUTE 278.00 MM ;                                
+  SETTEXT 0 MODERN CENTER AUTO                                                  
+      LINE H22071 SOSI2 NOUNDERLINE CHAR                                        
+        'Todos los importes de este extracto se expresan '                      
+           SOSI2 NOUNDERLINE CHAR                                               
+        'en:'                                                                   
+           ;                                                                    
+  POSITION ABSOLUTE 2.00 MM ABSOLUTE 279.00 MM ;                                
+  DRAWBOX 202.00 MM 6.00 MM 1 SOLID ;                                           
+  POSITION ABSOLUTE 2.00 MM ABSOLUTE 273.00 MM ;                                
+  DRAWBOX 202.00 MM 6.00 MM 1 SOLID                                             
+    SHADE ALL                                                                   
+            WHOLE STANDARD LIGHT ;                                              
+  POSITION ABSOLUTE 2.00 MM ABSOLUTE 18.00 MM ;                                 
+  DRAWBOX 202.00 MM 6.00 MM 1 SOLID                                             
+    SHADE ALL                                                                   
+            WHOLE STANDARD LIGHT ;                                              
+  POSITION ABSOLUTE 2.00 MM ABSOLUTE 40.00 MM ;                                 
+  DRAWBOX 202.00 MM 6.00 MM 1 SOLID                                             
+    SHADE ALL                                                                   
+            WHOLE STANDARD LIGHT ;                                              
+  POSITION ABSOLUTE 3.00 MM ABSOLUTE 3.00 MM ;                                  
+  PLACE SEGID LBVAA1 ;                                                          
+  POSITION ABSOLUTE 190.00 MM ABSOLUTE 289.00 MM ;                              
+  SETTEXT 0 MODERN CENTER AUTO                                                  
+      LINE GT24 SOSI2 NOUNDERLINE CHAR                                          
+        'C00201'                                                                
+           ;                                                                    
+  POSITION ABSOLUTE 2.00 MM ABSOLUTE 47.00 MM ;                                 
+  DRAWBOX 202.00 MM 7.00 MM 0 SOLID                                             
+    REPEAT DOWN 15 SPACED 7.00 MM                                               
+    SHADE ALL                                                                   
+            WHOLE STANDARD 15;                                                  
+  POSITION ABSOLUTE 39.00 MM ABSOLUTE 28.00 MM ;                                
+  SETTEXT 0 MODERN CENTER AUTO                                                  
+      LINE GT5S SOSI2 NOUNDERLINE CHAR                                          
+        '-'                                                                     
+           ;                                                                    
+  POSITION ABSOLUTE 48.00 MM ABSOLUTE 28.00 MM ;                                
+  SETTEXT 0 MODERN CENTER AUTO                                                  
+      LINE GT5S SOSI2 NOUNDERLINE CHAR                                          
+        '-'                                                                     
+           ;                                                                    
+  POSITION ABSOLUTE 54.00 MM ABSOLUTE 28.00 MM ;                                
+  SETTEXT 0 MODERN CENTER AUTO                                                  
+      LINE GT5S SOSI2 NOUNDERLINE CHAR                                          
+        '-'                                                                     
+           ;                                                                    
+  POSITION ABSOLUTE 67.00 MM ABSOLUTE 31.00 MM ;                                
+  SETTEXT 0 MODERN CENTER AUTO                                                  
+      LINE H22071 SOSI2 NOUNDERLINE CHAR                                        
+        'BIC:'                                                                  
+           ;                                                                    

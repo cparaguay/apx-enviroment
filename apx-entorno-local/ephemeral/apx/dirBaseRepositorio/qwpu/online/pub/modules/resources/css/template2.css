@@ -1,0 +1,157 @@
+p{
+	color: #33589B;
+	position: relative;
+	 top:50px;
+	 font-family: bbvaoffice-light.ttf;
+	 font-size: 9.5pt;
+	margin-bottom:18px;
+	
+}
+
+.imagenPortada{
+	position: relative;
+    left: -48px;
+    top:-48px;
+}
+
+.imagenPortadaFinal{
+	position: relative;
+    left: -92px;
+    top:2px;
+}
+.moverParrafo1{
+	line-height: 20px;
+    font-size: 9.5pt;
+     padding-right: 110px;
+	position: relative;
+    top:29px;
+ 	left:45px;
+}
+
+.moverTabla{
+	position: relative;
+    top:-16px;
+	left:-1;
+}
+
+.adelante1{
+ position: relative; 
+   top:10px; 
+   left:-30px; 
+  font-size: 16pt;
+   font-weight: bold;
+}
+
+.adelanteTabla{
+ position: relative; 
+   top:10px; 
+   left:-30px; 
+  font-size: 16pt;
+   font-weight: bold;
+}
+
+
+.adelante2{
+ position: relative; 
+   top:75px; 
+   left:14px; 
+  font-size: 16pt;
+   font-weight: bold;
+}
+
+.adelante3{
+ position: relative; 
+   top:185px; 
+   left:14px; 
+  font-size: 16pt;
+   font-weight: bold;
+}
+
+.imagenDestino{
+	position: relative;
+    left: 400px;
+    top:-125px;
+}
+
+p strong {
+	position: relative;
+	right:100;
+}
+
+table{
+	
+	text-align: center; 
+  font-size: 10pt;
+  vertical-align:middle;
+  
+	
+}
+td{
+	font-size: 9pt;
+}
+.pieImagen1{
+	position: relative;
+    top:-300px;
+}
+
+
+
+
+.moverParrafo2{
+	line-height: 20px;
+    font-size: 9.5pt;
+     padding-right: 116px;
+	position: relative;
+    top:110px;
+ 	left:44px
+}
+
+.textoFinal{
+	position: relative;
+    top:90px;
+    left:40px;
+}
+
+.moverParrafo3{
+	line-height: 20px;
+    font-size: 9.5pt;
+     padding-right: 116px;
+	position: relative;
+    top:-10px;
+ 	left:100px
+}
+
+.tabla2{
+	margin-top: -20px;
+	position:relative;
+}
+.imagenFinal{
+	position: relative;
+    top:-200px;
+    margin: -400px -48px;
+}
+.finDePagina{
+	page-break-before: always;
+	page:port; 
+    
+	
+}
+
+@page land { size:landscape; }
+@page port { size:portrait; }
+
+.moverParrafo2{
+	position: relative;
+    top:-50px;
+}
+
+/* .posicionTexto{
+	position: relative;
+	top:-75px;
+} */
+/* 
+.foo {
+   font-size: 9.5pt;
+    padding-right: 116px;
+}
+

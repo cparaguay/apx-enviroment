@@ -1,0 +1,40 @@
+2022-09-03 04:35:26,407 [EclipseGeminiBlueprintExtenderThread-150] [qwpo]com.bbva.elara.monitorization.dispatch.impl.MonitorizationSenderImpl - Getting de Mq Factory
+2022-09-03 04:35:26,428 [EclipseGeminiBlueprintExtenderThread-150] [qwpo]com.bbva.elara.monitorization.dispatch.impl.MonitorizationSenderImpl - Adding service conector out
+2022-09-03 04:35:27,157 [EclipseGeminiBlueprintExtenderThread-150] [qwpo]com.bbva.elara.monitorization.dispatch.impl.MonitorizationSenderImpl - Getter de Mq Factory
+2022-09-03 04:35:27,259 [EclipseGeminiBlueprintExtenderThread-150] [qwpo]com.bbva.elara.monitorization.asynchronous.impl.MonitorizationProducerImpl - [MONITORIZATION] Initializing 7 incoming consumers.
+2022-09-03 04:35:27,262 [EclipseGeminiBlueprintExtenderThread-150] [qwpo]com.bbva.elara.monitorization.asynchronous.impl.EventHandlerFactoryImpl - [MONITORIZATION] Creating monitorization consumer number 0
+2022-09-03 04:35:27,266 [EclipseGeminiBlueprintExtenderThread-150] [qwpo]com.bbva.elara.monitorization.asynchronous.impl.EventHandlerFactoryImpl - [MONITORIZATION] Monitorization Consumer number 0 successfully created
+2022-09-03 04:35:27,266 [EclipseGeminiBlueprintExtenderThread-150] [qwpo]com.bbva.elara.monitorization.asynchronous.impl.EventHandlerFactoryImpl - [MONITORIZATION] Creating monitorization consumer number 1
+2022-09-03 04:35:27,266 [EclipseGeminiBlueprintExtenderThread-150] [qwpo]com.bbva.elara.monitorization.asynchronous.impl.EventHandlerFactoryImpl - [MONITORIZATION] Monitorization Consumer number 1 successfully created
+2022-09-03 04:35:27,266 [EclipseGeminiBlueprintExtenderThread-150] [qwpo]com.bbva.elara.monitorization.asynchronous.impl.EventHandlerFactoryImpl - [MONITORIZATION] Creating monitorization consumer number 2
+2022-09-03 04:35:27,266 [EclipseGeminiBlueprintExtenderThread-150] [qwpo]com.bbva.elara.monitorization.asynchronous.impl.EventHandlerFactoryImpl - [MONITORIZATION] Monitorization Consumer number 2 successfully created
+2022-09-03 04:35:27,266 [EclipseGeminiBlueprintExtenderThread-150] [qwpo]com.bbva.elara.monitorization.asynchronous.impl.EventHandlerFactoryImpl - [MONITORIZATION] Creating monitorization consumer number 3
+2022-09-03 04:35:27,266 [EclipseGeminiBlueprintExtenderThread-150] [qwpo]com.bbva.elara.monitorization.asynchronous.impl.EventHandlerFactoryImpl - [MONITORIZATION] Monitorization Consumer number 3 successfully created
+2022-09-03 04:35:27,266 [EclipseGeminiBlueprintExtenderThread-150] [qwpo]com.bbva.elara.monitorization.asynchronous.impl.EventHandlerFactoryImpl - [MONITORIZATION] Creating monitorization consumer number 4
+2022-09-03 04:35:27,266 [EclipseGeminiBlueprintExtenderThread-150] [qwpo]com.bbva.elara.monitorization.asynchronous.impl.EventHandlerFactoryImpl - [MONITORIZATION] Monitorization Consumer number 4 successfully created
+2022-09-03 04:35:27,266 [EclipseGeminiBlueprintExtenderThread-150] [qwpo]com.bbva.elara.monitorization.asynchronous.impl.EventHandlerFactoryImpl - [MONITORIZATION] Creating monitorization consumer number 5
+2022-09-03 04:35:27,266 [EclipseGeminiBlueprintExtenderThread-150] [qwpo]com.bbva.elara.monitorization.asynchronous.impl.EventHandlerFactoryImpl - [MONITORIZATION] Monitorization Consumer number 5 successfully created
+2022-09-03 04:35:27,266 [EclipseGeminiBlueprintExtenderThread-150] [qwpo]com.bbva.elara.monitorization.asynchronous.impl.EventHandlerFactoryImpl - [MONITORIZATION] Creating monitorization consumer number 6
+2022-09-03 04:35:27,266 [EclipseGeminiBlueprintExtenderThread-150] [qwpo]com.bbva.elara.monitorization.asynchronous.impl.EventHandlerFactoryImpl - [MONITORIZATION] Monitorization Consumer number 6 successfully created
+2022-09-03 04:35:27,269 [EclipseGeminiBlueprintExtenderThread-150] [qwpo]com.bbva.elara.monitorization.asynchronous.impl.MonitorizationProducerImpl - [MONITORIZATION] Starting incoming disruptor.
+2022-09-03 04:35:27,264 [EclipseGeminiBlueprintExtenderThread-150] [qwpo]com.bbva.elara.monitorization.asynchronous.impl.MonitorizationConsumerImpl - [MONITORIZATION] Initializing incoming monitorization consumer 0.
+2022-09-03 04:35:27,266 [EclipseGeminiBlueprintExtenderThread-150] [qwpo]com.bbva.elara.monitorization.asynchronous.impl.MonitorizationConsumerImpl - [MONITORIZATION] Initializing incoming monitorization consumer 1.
+2022-09-03 04:35:27,266 [EclipseGeminiBlueprintExtenderThread-150] [qwpo]com.bbva.elara.monitorization.asynchronous.impl.MonitorizationConsumerImpl - [MONITORIZATION] Initializing incoming monitorization consumer 2.
+2022-09-03 04:35:27,266 [EclipseGeminiBlueprintExtenderThread-150] [qwpo]com.bbva.elara.monitorization.asynchronous.impl.MonitorizationConsumerImpl - [MONITORIZATION] Initializing incoming monitorization consumer 3.
+2022-09-03 04:35:27,266 [EclipseGeminiBlueprintExtenderThread-150] [qwpo]com.bbva.elara.monitorization.asynchronous.impl.MonitorizationConsumerImpl - [MONITORIZATION] Initializing incoming monitorization consumer 4.
+2022-09-03 04:35:27,266 [EclipseGeminiBlueprintExtenderThread-150] [qwpo]com.bbva.elara.monitorization.asynchronous.impl.MonitorizationConsumerImpl - [MONITORIZATION] Initializing incoming monitorization consumer 5.
+2022-09-03 04:35:27,266 [EclipseGeminiBlueprintExtenderThread-150] [qwpo]com.bbva.elara.monitorization.asynchronous.impl.MonitorizationConsumerImpl - [MONITORIZATION] Initializing incoming monitorization consumer 6.
+2022-09-03 04:35:27,824 [EclipseGeminiBlueprintExtenderThread-173] [qwpo]com.bbva.elara.banking.rop.impl.factory.EventHandlerFactoryImpl - Creating operationalLog consumer number 0
+2022-09-03 04:35:27,910 [EclipseGeminiBlueprintExtenderThread-173] [qwpo]com.bbva.elara.banking.rop.impl.factory.EventHandlerFactoryImpl - Operational log Consumer number 0 successfully created
+2022-09-03 04:35:27,910 [EclipseGeminiBlueprintExtenderThread-173] [qwpo]com.bbva.elara.banking.rop.impl.factory.EventHandlerFactoryImpl - Creating operationalLog consumer number 1
+2022-09-03 04:35:27,915 [EclipseGeminiBlueprintExtenderThread-173] [qwpo]com.bbva.elara.banking.rop.impl.factory.EventHandlerFactoryImpl - Operational log Consumer number 1 successfully created
+2022-09-03 04:35:27,915 [EclipseGeminiBlueprintExtenderThread-173] [qwpo]com.bbva.elara.banking.rop.impl.factory.EventHandlerFactoryImpl - Creating operationalLog consumer number 2
+2022-09-03 04:35:27,916 [EclipseGeminiBlueprintExtenderThread-173] [qwpo]com.bbva.elara.banking.rop.impl.factory.EventHandlerFactoryImpl - Operational log Consumer number 2 successfully created
+2022-09-03 04:35:27,920 [EclipseGeminiBlueprintExtenderThread-173] [qwpo]com.bbva.elara.banking.rop.impl.factory.EventHandlerFactoryImpl - Creating operationalLog consumer number 3
+2022-09-03 04:35:27,920 [EclipseGeminiBlueprintExtenderThread-173] [qwpo]com.bbva.elara.banking.rop.impl.factory.EventHandlerFactoryImpl - Operational log Consumer number 3 successfully created
+2022-09-03 04:35:27,920 [EclipseGeminiBlueprintExtenderThread-173] [qwpo]com.bbva.elara.banking.rop.impl.factory.EventHandlerFactoryImpl - Creating operationalLog consumer number 4
+2022-09-03 04:35:27,921 [EclipseGeminiBlueprintExtenderThread-173] [qwpo]com.bbva.elara.banking.rop.impl.factory.EventHandlerFactoryImpl - Operational log Consumer number 4 successfully created
+2022-09-03 04:35:27,933 [EclipseGeminiBlueprintExtenderThread-173] [qwpo]com.bbva.elara.banking.rop.impl.factory.EventHandlerFactoryImpl - Creating operationalLog consumer number 5
+2022-09-03 04:35:27,936 [EclipseGeminiBlueprintExtenderThread-173] [qwpo]com.bbva.elara.banking.rop.impl.factory.EventHandlerFactoryImpl - Operational log Consumer number 5 successfully created
+2022-09-03 04:35:27,948 [EclipseGeminiBlueprintExtenderThread-173] [qwpo]com.bbva.elara.banking.rop.impl.factory.EventHandlerFactoryImpl - Creating operationalLog consumer number 6
+2022-09-03 04:35:27,949 [EclipseGeminiBlueprintExtenderThread-173] [qwpo]com.bbva.elara.banking.rop.impl.factory.EventHandlerFactoryImpl - Operational log Consumer number 6 successfully created

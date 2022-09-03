@@ -1,0 +1,46 @@
+.div1 {
+	position: relative;
+}
+
+.textoPrincipal {
+	font-family: BBVA Office Book;
+	font-size: 10;
+	font-weight: bold;
+}
+
+.textoValue {
+	font-family: BBVA Office Light;
+	font-size: 10;
+	padding-left: 10;	
+}
+
+table {
+	border-collapse: collapse;
+}
+
+td{
+	font-family: BBVA Office Light;
+	font-size: 10;
+	padding-left: 10;
+    text-align:left;
+    border:1px solid gray;
+    padding:4px;
+}
+th{
+	font-family: BBVA Office Book;
+	font-size: 10;
+	font-weight: bold;
+	text-align:center;
+    background-color:#84C7FD;
+    color:#fff;
+}
+
+.imagebbva{
+	position: relative;
+	left: 400;
+	bottom: 150;
+}
+
+.brakmolon{
+	page-break-after: always;
+}

@@ -1,0 +1,217 @@
+/* PAGEDEF PARA PAPEL 8X4 */                                                    
+SETUNITS  1.00 PELS  1.00 PELS LINESP  6.00 LPI ;                               
+PAGEDEF CU01                                                                    
+      WIDTH  8.20 IN                                                            
+      HEIGHT  4.00 IN                                                           
+      DIRECTION ACROSS                                                          
+      REPLACE YES;                                                              
+                                                                                
+ FONT GT24   ;                                                                  
+ FONT GT20   ;                                                                  
+ FONT GT8S   ;                                                                  
+ FONT GT5S   ;                                                                  
+ FONT GL56   ;                                                                  
+ FONT GT2S   ;    /* NO BORRAR ESTE JOB */                                      
+ FONT GLE6   ;                                                                  
+ FONT GB2S   ;                                                                  
+ FONT GB12   ;                                                                  
+ FONT GI2S   ;    /* SE UTILIZA EN LA COMPILACION DE CORRESPONDENCIA */         
+ FONT GT0S   ;                                                                  
+ FONT GL06   ;                                                                  
+ FONT GB0S   ;                                                                  
+                                                                                
+ FONT PR2S   ;                                                                  
+ FONT PB2S   ;                                                                  
+                                                                                
+ FONT ST5S   ;                                                                  
+ FONT ST2S   ;                                                                  
+ FONT SB2S   ;                                                                  
+                                                                                
+ FONT CB56   ;                                                                  
+ FONT CI56   ;                                                                  
+ FONT CBE6   ;                                                                  
+                                                                                
+ FONT SEP2   ;                                                                  
+ FONT 282P   ;                                                                  
+ FONT 283P   ;                                                                  
+ FONT OC0B   ;                                                                  
+                                                                                
+ FONT A0556I ;                                                                  
+ FONT A0557I ;                                                                  
+ FONT A0558I ;                                                                  
+ FONT A0559I ;                                                                  
+ FONT A0550I ;                                                                  
+ FONT A055AI ;                                                                  
+ FONT A055BI ;                                                                  
+ FONT A0756I ;                                                                  
+ FONT A0757I ;                                                                  
+ FONT A0758I ;                                                                  
+ FONT A0759I ;                                                                  
+ FONT A0750I ;                                                                  
+ FONT A075AI ;                                                                  
+ FONT A075BI ;                                                                  
+ FONT A075JI ;                                                                  
+ FONT A1556I ;                                                                  
+ FONT A1557I ;                                                                  
+ FONT A1558I ;                                                                  
+ FONT A1559I ;                                                                  
+ FONT A1550I ;                                                                  
+ FONT A155AI ;                                                                  
+ FONT A155BI ;                                                                  
+ FONT A1756I ;                                                                  
+ FONT A1757I ;                                                                  
+ FONT A1758I ;                                                                  
+ FONT A1759I ;                                                                  
+ FONT A1750I ;                                                                  
+ FONT A175AI ;                                                                  
+ FONT A175BI ;                                                                  
+                                                                                
+ FONT S0556I ;                                                                  
+ FONT S0557I ;                                                                  
+ FONT S0558I ;                                                                  
+ FONT S0559I ;                                                                  
+ FONT S0550I ;                                                                  
+ FONT S055AI ;                                                                  
+ FONT S055BI ;                                                                  
+ FONT S0756I ;                                                                  
+ FONT S0757I ;                                                                  
+ FONT S0758I ;                                                                  
+ FONT S0759I ;                                                                  
+ FONT S0750I ;                                                                  
+ FONT S075AI ;                                                                  
+ FONT S075BI ;                                                                  
+ FONT S1556I ;                                                                  
+ FONT S1557I ;                                                                  
+ FONT S1558I ;                                                                  
+ FONT S1559I ;                                                                  
+ FONT S1550I ;                                                                  
+ FONT S155AI ;                                                                  
+ FONT S155BI ;                                                                  
+ FONT S1756I ;                                                                  
+ FONT S1757I ;                                                                  
+ FONT S1758I ;                                                                  
+ FONT S1759I ;                                                                  
+ FONT S1750I ;                                                                  
+ FONT S175AI ;                                                                  
+ FONT S175BI ;                                                                  
+                                                                                
+ FONT H220A1 ;                                                                  
+ FONT H220B1 ;                                                                  
+ FONT H220D1 ;                                                                  
+ FONT H220F1 ;                                                                  
+ FONT H22061 ;                                                                  
+ FONT H22071 ;                                                                  
+ FONT H22081 ;                                                                  
+ FONT H22091 ;                                                                  
+ FONT H22001 ;                                                                  
+ FONT H32061 ;                                                                  
+ FONT H32071 ;                                                                  
+ FONT H32081 ;                                                                  
+ FONT H32091 ;                                                                  
+ FONT H32001 ;                                                                  
+ FONT H420A1 ;                                                                  
+ FONT H420B1 ;                                                                  
+ FONT H420F1 ;                                                                  
+ FONT H420D1 ;                                                                  
+ FONT H42061 ;                                                                  
+ FONT H42071 ;                                                                  
+ FONT H42081 ;                                                                  
+ FONT H42091 ;                                                                  
+ FONT H42001 ;                                                                  
+ FONT H52061 ;                                                                  
+ FONT H52071 ;                                                                  
+ FONT H52081 ;                                                                  
+ FONT H52091 ;                                                                  
+ FONT H52001 ;                                                                  
+                                                                                
+                                                                                
+                                                                                
+ PAGEFORMAT C21K00;                                                             
+   PRINTLINE                                                                    
+      POSITION  0.00 PELS  0.00 PELS ;                                          
+  /*LITERALES-VERSION                                                           
+  LITERALES-VERSION */                                                          
+    FIELD START 1 LENGTH 6                                                      
+      FONT GT24                                                                 
+      POSITION  1519.00 PELS  947.00 PELS ;                                     
+   PRINTLINE                                                                    
+      POSITION  0.00 PELS  0.00 PELS ;                                          
+  /*ESTANDAR*/                                                                  
+    FIELD START 1 LENGTH 36                                                     
+      FONT H42081                                                               
+      POSITION  41.00 PELS  915.00 PELS ;                                       
+  /*Nombre sucursal*/                                                           
+    FIELD START 37 LENGTH 8                                                     
+      FONT H42081                                                               
+      POSITION  983.00 PELS  915.00 PELS ;                                      
+  /*Fecha emisión carta*/                                                       
+    FIELD START 70 LENGTH 4                                                     
+      FONT H42081                                                               
+      POSITION  1194.00 PELS  915.00 PELS ;                                     
+  /*Entidad*/                                                                   
+    FIELD START 74 LENGTH 4                                                     
+      FONT H42081                                                               
+      POSITION  1320.00 PELS  915.00 PELS ;                                     
+  /*oficina*/                                                                   
+    FIELD START 78 LENGTH 2                                                     
+      FONT H42081                                                               
+      POSITION  1453.00 PELS  915.00 PELS ;                                     
+  /*Dígito Control*/                                                            
+    FIELD START 82 LENGTH 3                                                     
+      FONT H42081                                                               
+      POSITION  1544.00 PELS  915.00 PELS ;                                     
+  /*Cuenta: modalidad*/                                                         
+    FIELD START * LENGTH 6                                                      
+      FONT H42081                                                               
+      POSITION  1591.00 PELS  915.00 PELS ;                                     
+  /*Cuenta: n. cuenta*/                                                         
+    FIELD START * LENGTH 1                                                      
+      FONT H42081                                                               
+      POSITION  1685.00 PELS  915.00 PELS ;                                     
+  /*Cuenta: Check*/                                                             
+    FIELD START 120 LENGTH 44                                                   
+      FONT H42081                                                               
+      POSITION  41.00 PELS  784.00 PELS ;                                       
+  /*Titular 1*/                                                                 
+    FIELD START 175 LENGTH 44                                                   
+      FONT H42081                                                               
+      POSITION  41.00 PELS  812.00 PELS ;                                       
+  /*Titular 2*/                                                                 
+    FIELD START 505 LENGTH 2                                                    
+      FONT GT24                                                                 
+      POSITION  1610.00 PELS  947.00 PELS ;                                     
+    FIELD START 507 LENGTH 8                                                    
+      FONT GT24                                                                 
+      POSITION  1640.00 PELS  947.00 PELS ;                                     
+    FIELD START 515 LENGTH 2                                                    
+      FONT GT24                                                                 
+      POSITION  1725.00 PELS  947.00 PELS ;                                     
+    FIELD START 517 LENGTH 8                                                    
+      FONT GT24                                                                 
+      POSITION  1754.00 PELS  947.00 PELS ;                                     
+   PRINTLINE                                                                    
+      POSITION  0.00 PELS  0.00 PELS ;                                          
+  /*VARIABLES*/                                                                 
+    FIELD START 1 LENGTH 26                                                     
+      FONT GT0S                                                                 
+      POSITION  700.00 PELS  208.00 PELS ;                                      
+  /*Numero de contrato*/                                                        
+    FIELD START * LENGTH 21                                                     
+      FONT GT0S                                                                 
+      POSITION  1270.00 PELS  393.00 PELS ;                                     
+  /*Nuevo importe cobertura*/                                                   
+    FIELD START * LENGTH 21                                                     
+      FONT GT0S                                                                 
+      POSITION  1270.00 PELS  437.00 PELS ;                                     
+  /*Nueva cuota segura*/                                                        
+    FIELD START * LENGTH 21                                                     
+      FONT GT0S                                                                 
+      POSITION  1270.00 PELS  567.00 PELS ;                                     
+  /*Importe abonado/cargado*/                                                   
+    FIELD START * LENGTH 10                                                     
+      FONT H42081                                                               
+      POSITION  1765.00 PELS  915.00 PELS ;                                     
+  /*Fecha valor*/                                                               
+                                                                                
+                                                                                
+                                                                                

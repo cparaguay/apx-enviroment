@@ -1,0 +1,17 @@
+{
+
+    "request": {
+      "method": "GET",
+      "url": "/v2/ns/user.p000000/buckets/bucket-notifications/files/fileErrorResponseIsNull_1.pdf:download"
+     },
+    "response": {
+      "status": 200,
+      "base64Body": null,
+      "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "GET",
+        "x-rho-traceid": "dc17f40e7989b8fa34c633da1bbf89d9"
+      }
+    }
+  }
+  

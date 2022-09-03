@@ -1,0 +1,22 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/auth/token?grant_type=client_credentials",
+    "headers": {
+      "Authorization": {
+          "matches": "Basic UDEyUjpWKlpOMHpGJDVtZnlqTkYqOFBTMnhMJSZqUHo3RUhqMGpwWkZIRG1jZkpWZHdQTXZ4RWslb3phVDJZeVpSJWh2"
+      }
+  }
+   },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE",
+      "Access-Control-Allow-Headers":  "Origin, X-Requested-With, Content-Type, Accept",
+      "Content-Type": "application/json",
+      "x-rho-traceid": "dc17f40e7989b8fa34c633da1bbf89d9"
+    },
+    "bodyFileName": "notification-manager/caso-05-token-expired/1.auth-jwt-caso-05-token-expired.json"
+  }
+}

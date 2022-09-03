@@ -1,0 +1,22 @@
+{
+    "data": {
+        "links": [
+            {
+                "href": "https://notifications-manager-sec.work.es.platform.bbva.com/notifications-manager/v1/notifications/111-a41c-4c9e-bdf9-fed99f176666",
+                "rel": "self"
+            },
+            {
+                "href": "https://notifications-manager-sec.work.es.platform.bbva.com/notifications-manager/v1/notifications/222-a41c-4c9e-bdf9-fed99f176666",
+                "rel": "self"
+            },
+            {
+                "href": "https://notifications-manager-sec.work.es.platform.bbva.com/notifications-manager/v1/notifications/333-a41c-4c9e-bdf9-fed99f176666",
+                "rel": "self"
+            },
+            {
+                "href": "https://notifications-manager-sec.work.es.platform.bbva.com/notifications-manager/v1/notifications/444-a41c-4c9e-bdf9-fed99f176666",
+                "rel": "self"
+            }
+        ]
+    }
+}

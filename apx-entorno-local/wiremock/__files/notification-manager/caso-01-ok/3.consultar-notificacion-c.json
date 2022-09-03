@@ -1,0 +1,55 @@
+{
+    "data": {
+        "id": "a3489a73-a41c-4c9e-bdf9-fed99f17d921",
+        "notificationTypeId": "61cd6f2e3405987b6a7f5ead",
+        "users": [
+            {
+                "userType": "EMPLOYEE",
+                "userId": "TESTUSER",
+                "country": "ES",
+                "email": "cristhian.paraguay.contractor@bbva.com"
+            }
+        ],
+        "data": {
+            "subject": "Prueba de envío de notificación nro2 - Ambiente Prueba",
+            "body": "Hola equipo Strong Warriors, este es un mensaje de prueba, se realizó este envio mediante las credenciales de prueba, para poder usar las credenciales de desarrollo se necesita gestionar documentos como el msa, vobo de los arquitectos, etc."
+        },
+        "deliveryDetails": {
+            "defaultLanguage": "spa",
+            "language": "spa",
+            "channelType": "EMAIL",
+            "templateId": "61cd6f413405987b6a7f5eae",
+            "status": "SENT_TO_PROVIDER",
+            "statusDate": "2022-01-04T18:12:10.664Z",
+            "statusEvents": [
+                {
+                    "eventType": "SENT_EMAIL",
+                    "eventDate": "2022-01-04T18:12:10.367Z"
+                },
+                {
+                    "eventType": "DELIVERED_EMAIL",
+                    "eventDate": "2022-01-04T18:12:11.111Z",
+                    "eventDetails": "",
+                    "recipient": "cristhian.paraguay.contractor@bbva.com"
+                },
+                {
+                    "eventType": "OPENED_EMAIL",
+                    "eventDate": "2022-01-04T18:12:11.111Z",
+                    "eventDetails": "",
+                    "recipient": "cristhian.paraguay.contractor@bbva.com"
+                }
+            ],
+            "email": {
+                "recipients": [
+                    {
+                        "address": "cristhian.paraguay.contractor@bbva.com",
+                        "isOpen": true,
+                        "status": "DELIVERED"
+                    }
+                ]
+            }
+        },
+        "creationDate": "2022-01-04T18:12:09.399Z",
+        "consumerId": "integration-manager-client"
+    }
+}

@@ -1,0 +1,59 @@
+<html>
+<head>
+</head>
+<body>
+	<div>
+		<div>
+			<div class="div1">
+				<p><span class="textoPrincipal">Nº Billete:</span><span class="textoValue">$nbillete</span></p>
+				<p><span class="textoPrincipal">Localizador:</span><span class="textoValue">$localizador</span></p>
+				<p><span class="textoPrincipal">Viajero:</span><span class="textoValue">$viajero</span></p>
+				<p><span class="textoPrincipal">Autorizaci&oacute;n:</span></p>
+			</div>
+			<br/>
+			<div class="div1">
+				<table class="tabla1">				
+					<tbody>
+						<tr>
+							#foreach( $rowName in $rowNames )
+							<th class="colorcabezera">$rowName</th>
+							#end
+						</tr>
+						<tr>
+							#foreach( $rowValue in $rowValues )
+							#if( $rowValue == "12,55" )
+							<td class="billete_parcial">$rowValue</td>
+							#else
+							<td>$rowValue</td>
+							#end
+							#end
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<br/>
+			<div>			
+				<p class="textoPrincipal"><span>Importe: &euro;</span><span class="textoValue">$importe</span></p>
+				<p class="textoPrincipal"><span>Tasa Web: &euro;</span> <span class="textoValue">$tasaWeb</span></p>
+				<p class="textoPrincipal"><span>Importe Total: $</span><span class="textoValue">$total</span></p>		
+			</div>
+		</div>
+	</div>
+	<div class="imagebbva">
+		<img src="BBVA.gif" />
+	</div>
+	
+	<div class="">
+		<img src="@codigo1" />
+	</div>
+	
+	<p>#pagination</p>
+	<div class="brakmolon" />
+	
+	<p></p><br/>
+	<div class="">
+		<img src="@codigo1" />
+	</div>
+	<p>#pagination</p>
+</body>
+</html>

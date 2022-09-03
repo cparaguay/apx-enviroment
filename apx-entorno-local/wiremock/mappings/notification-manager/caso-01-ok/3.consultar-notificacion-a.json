@@ -1,0 +1,25 @@
+{
+  "scenarioName": "Consulta con estados",
+  "requiredScenarioState": "Started",
+  "newScenarioState": "estado-enviado",
+  "request": {
+    "method": "GET",
+    "url": "/notifications-manager/v1/notifications/a3489a73-a41c-4c9e-bdf9-fed99f176666",
+    "headers": {
+      "Authorization": {
+          "matches": "Bearer eyJ6aXAiOiJERUYiLCJlbmMiOiJBMTI4R0NNIiwiYWxnIjoiUlNBLU9BRVAifQ.NBj1nWEVP2wh5AU6BOv8sYZcTnHZ_GDecZ2FYScqyIrlpuGb-ZfVvpgRbIsIU8PBl86ok_VToTn4kPdGweRkULEFEl9Ts8TlBaXufauvrBJ_dJb4OkzA-0sL0QrUmDozc67YUFKcjG4ubDiHF1xgPME2DuZkXPhm2vEtibQgixuWT4Wqk5MFO-ybMEY-PDkg5K9m4ecDcB_ZOBJoiKi_VZuk0zAAJ8TokswusEh2cFOgLIR4gpdm_p7fLi12zo-JZH9wqxMbWSzpJ5sjr59KoSpElaZx0WKZrLv7k0LupM14TJVXNC_4DOUrddCpIT2ycysxvx1KhBUCEzeYjexp0A.4d1xk4qy-NG9DbVl.m-SXADWu16BxNwrvLu2-KsOrRlw1D7aauTMotGWNVmDEp6i7OlbpcGl6OZhA8peWJ-9SXqdwv4JgLjTPJ0Fb-5caVkkancgmpH9qujy_R1GfspLzOyepL8HjjVvEmAvTzr2ID9QXC-0oQzXXBzGrJ5M5pg89WSCEVuU1lXrU6X5PWqc1GYMloXwFIyXpgBBEpfyLtXHrExwBFMOQZl3NkcI4ygvAsOkZlsL6bQRHn0oPdWTo9Yk0vE_LRBb1fJ-Afb5d9cqH3X_hT-ulQFtPUQI2f1cI.nNCvnSrLlW3GymrESgx8BQ"
+      }
+    }
+   },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE",
+      "Access-Control-Allow-Headers":  "Origin, X-Requested-With, Content-Type, Accept",
+      "Content-Type": "application/json",
+      "x-rho-traceid": "dc17f40e7989b8fa34c633da1bbf89d9"
+    },
+    "bodyFileName": "notification-manager/caso-01-ok/3.consultar-notificacion-a.json"
+  }
+}

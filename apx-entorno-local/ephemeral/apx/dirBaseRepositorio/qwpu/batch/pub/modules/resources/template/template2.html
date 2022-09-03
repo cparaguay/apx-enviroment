@@ -1,0 +1,246 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body style="font-family: bbvaoffice-light;">
+
+	<div class="imagenPortada">
+		<img src="bbva.png" height="185" width="188" />
+	</div>
+	<!-- 	<div class="imagenDestino">
+		<img src="destino.png" height="120" width="220" />
+	</div> -->
+	<ean></ean>
+	<div class="moverParrafo1">
+		<p>Estimado cliente,</p>
+			<p>
+			Le comunicamos que a partir del <span style="color: RED; letter-spacing: 0.5px; font-weight: bold;">XX</span> de <strong><span style="color: RED; letter-spacing: 0.5px;font-weight: bold;">XXXXXXXXX</span></strong>
+			realizaremos el
+			<strong>
+			<span style="color: #00B9F4; letter-spacing: 0.5px;"> traspaso de sus productos y
+				servicios desde su Oficina BBVA actual a una nueva oficina:</span></strong>
+		</p>
+		
+		<br></br>
+		<div class="moverTabla">
+		<table width=590 height=80   align="center" >
+
+			<tr style="background-color: #007EC5; height:10px;font-size:9.5pt;line-height: 90%;">
+				<th scope="col" bgcolor="#007EC5" width="33%">
+						<span class="foo" style="color: #FFFFFF">ANTIGUA OFICINA <br></br>(hasta <span style="color: red">XX/XX/XXXX</span>)</span>
+				</th>
+				<th scope="col" bgcolor="#35BAEC" width="33%" style="background-color:#35BAEC;">
+						<span style="color: #FFFFFF">NUEVA OFICINA <br></br>(desde <span style="color: red">XX/XX/XXXX</span>)</span>
+				</th>
+				<th scope="col" bgcolor="blue" width="33%" style="background-color:#87D2F5;">
+						<span style="color: #FFFFFF">TELEFONO</span>
+						<br></br>
+						<span style="color: #FFFFFF">NUEVA OFICINA</span>
+				</th>
+			</tr>
+
+
+			<tr style="background-color: #C6DAF0;">
+				<td>
+					C/ <span style="color: red">XXXXXX, XX. XXXXXX xxxxxxxxxxxxx</span>
+				</td>
+				<td style="background-color:#D9EFFA;">
+					C/ <span style="color: red">XXXXXX, XX. XXXXXX</span>
+					<span style="color: red">xxxxxxxxxxxxx</span>
+				</td>
+				<td style="background-color:#F2F9FD;">9<span style="color: red">XX XX XX XX</span></td>
+			</tr>
+		</table>
+		</div>
+		
+
+		<p>
+			Este proceso implicara un
+			<bold>
+			<span style="color: #00B9F4"> cambio en la numeracion de sus
+				productos y servicios.</span></bold>
+			Sin embargo, esto no afectara a sus domiciliaciones, cobros o pagos
+			ya que
+			<bold>
+			<span style="color: #00B9F4"> nosotros nos ocuparemos de todo.</span></bold>
+			Asimismo, podra seguir utilizando sus tarjetas y libretas con total
+			normalidad.
+		</p>
+
+		<p>
+			En el
+			<bold>
+			<span style="color: #00B9F4"> documento anexo</span></bold>
+			encontrara la relación de sus cuentas con detalle, tanto del codigo
+			antiguo como del nuevo.
+		</p>
+
+		<p>
+			Para cualquier duda o aclaracion que precise al respecto, le
+			invitamos a acudir a su oficina o a contactar con nosotros a traves
+			de
+			<bold>
+			<span style="color: #00B9F4"> BBVA Contigo</span></bold>
+			, donde tendra a su disposicion
+			<bold>
+			<span style="color: #00B9F4"> un Gestor Personal con el que
+				podra realizar cualquier gestion, contratacion o consulta cuando
+				quiera y desde cualquier lugar</span></bold>
+			a traves del telefono fijo, movil o email. Un servicio que no supone
+			ningun coste adicional para usted y del que podrá beneficiarse en el
+			horario de 09:00 a 19:00 h., incluso los fines de semana.
+		</p>
+
+		<p>Aprovechamos la ocasion para agradecerle la confianza que nos
+			tiene depositada y enviarle un cordial saludo.</p>
+
+		<p>Atentamente,</p>
+		<br></br>
+		<p style="font-weight: bold;">BBVA</p>
+		<br></br>
+	<div class= "posicionPieImagen">
+		<img src="pieImagen1.png" height="130" width="612" />
+	</div>
+	<br></br>
+
+	</div>
+	<div class="finDePagina">
+		<div class="imagenPortada">
+			<img src="bbva.png" height="185" width="188" />
+		</div>
+	</div>
+
+	
+	
+
+	<div class="moverParrafo2">
+		<p><br></br>
+			<span style="color: #00A9E7; font-size: 24pt"> Detalle de sus
+				cuentas</span>
+		</p>
+		
+		<p>Aqui tiene el listado de todas sus cuentas con el cambio en la
+			numeracion. No se preocupe, en BBVA nos encargamos de todas las
+			gestiones relacionadas con domiciliaciones, cobros y pagos.</p>
+
+		<div class="tabla2">
+		
+		
+		
+
+		#set( $foo = 0 )
+		#set( $foo2 = 0 )
+		#set( $pasar = 0 )
+		#set( $imagenInicial = 1 )
+		
+		
+		
+		
+		#foreach( $prueba in $cuentasTotal )
+			#set ($foo = $foo + 1)
+			#if (( $foo == 1 ) || ( $pasar == 1 )) 
+			
+				#if ($imagenInicial == 0)
+				<div class="finDePagina">
+					<div class="imagenPortadaFinal">
+						<img src="bbva.png" height="185" width="188" />
+					</div>
+				</div>
+				<br></br>
+				
+					#set( $imagenInicial = 1 )
+				#end
+				<table height=600  width=610  align="center">
+					
+
+					 <tr style="background-color: #007EC5;" height="45">
+							<th scope="col" bgcolor="#007EC5" width="16%">
+									<span style="color: #FFFFFF">CUENTAS</span>
+							</th>
+							<th scope="col" bgcolor="#35BAEC" width="42%" style="background-color:#35BAEC;">
+									<span style="color: #FFFFFF">ANTIGUO N CUENTA</span>
+							</th>
+							<th scope="col" bgcolor="blue" width="42%"  style="background-color:#8BC63E;">
+									<span style="color: #FFFFFF">NUEVO N CUENTA</span>
+							</th>
+					</tr>
+		  
+			#end
+					<tr  style="background-color: #C6DAF0;" height="40">
+						#if ( $foo == 1 )
+							<td rowspan="$rowspan1">
+							  <p>Cuentas de credito</p>
+							</td>
+						
+							<td style="background-color:#D9EFFA;">
+							  $prueba.ANTIGUOCUENTA1
+							  <br></br>
+							  $prueba.ANTIGUOCUENTA2
+							</td>
+							<td style="background-color:#F2F9FD;">
+							  $prueba.NUEVOCUENTA1   
+							  <br></br>
+							  $prueba.NUEVOCUENTA2
+							</td>
+						#end
+				
+					</tr>
+				#if ( ($foo ==  $rowspan1+1) || ( $pasar == 1 ))
+							#set ($pasar = 0)
+				   <tr  style="background-color: #C6DAF0;" height="40">
+						<td rowspan="$rowspan2">
+							  <p>Cuentas corriente</p>
+							</td>
+						
+						<td style="background-color:#D9EFFA;">
+						  $prueba.ANTIGUOCUENTA1 
+						  <br></br>
+						  $prueba.ANTIGUOCUENTA2
+						</td>
+						<td style="background-color:#F2F9FD;">
+						  $prueba.NUEVOCUENTA1  
+						  <br></br>
+						  $prueba.NUEVOCUENTA2					  
+						</td>
+					</tr>
+					
+				#end
+					
+					
+					
+			  #if ( $foo > 1 )
+				   <tr  style="background-color: #C6DAF0;" height="40">
+						<td style="background-color:#D9EFFA;">
+						  $prueba.ANTIGUOCUENTA1 
+						  <br></br>
+						  $prueba.ANTIGUOCUENTA2
+						</td>
+						<td style="background-color:#F2F9FD;">
+						  $prueba.NUEVOCUENTA1  
+						  <br></br>
+						  $prueba.NUEVOCUENTA2					  
+						</td>
+					</tr>
+					
+					#if ($foo%14==0)
+						#set ($pasar = 1)
+						
+				
+					  #end
+				#end
+			#if (($foo==26) || ( $pasar == 1 )) )
+				</table>
+				#set( $imagenInicial = 0 )
+				
+			#end
+		#end
+		</div>
+		
+	</div>
+
+		<div class="textoFinal"><img src="textopFinal.png" width="605"  /></div>
+</body>
+</html>

@@ -1,0 +1,379 @@
+<html>
+<head>Test de idoneidad
+</head>
+
+<body
+	style="margin-left: 120px; margin-right: 100px; text-align: justify;">
+	<div style="position: relative; top: 80px;">
+		<!-- CONDICIONES GENERALES -->
+		<!-- Pagina 1 -->
+
+		<table width="100%" cellspacing="0" style="margin-top: 12px;">
+			<tr>
+				<td
+					style="padding: 8px; font-size: 16pt; color: #002060; font-family: BBVA Office Light; width: 100%;">
+					<p style="font-size: 14pt">
+						<b>Test de Idoneidad</b>
+					</p> <br />
+				</td>
+			</tr>
+			<tr>
+				<td
+					style="padding: 8px; font-size: 11pt; color: #002060; font-family: BBVA Office Light; width: 100%;">
+					<p>N&uacute;mero de test: &nbsp;&nbsp; #if (${numTest})
+						${numTest} #else &nbsp; #end</p> <br />
+					<div class="inline">1. CLIENTE:&nbsp;</div> 
+					<field type="text" class="inline" id="Text4" width="200" height="25" />
+					<br />
+				</td>
+			</tr>
+			<tr>
+				<td
+					style="padding: 8px; font-size: 11pt; color: #002060; font-family: BBVA Office Light; width: 100%;">
+					<p>
+						<b>Nombre y apellidos: </b> &nbsp;#if (${nomApe}) ${nomApe} #else
+						&nbsp; #end &nbsp;
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td
+					style="padding: 8px; font-size: 11pt; color: #002060; font-family: BBVA Office Light; width: 100%;">
+					<p>
+						<b>NIF: </b>&nbsp;#if (${nif}) ${nif} #else &nbsp; #end &nbsp;
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td
+					style="padding: 8px; font-size: 11pt; color: #002060; font-family: BBVA Office Light; width: 100%;">
+					<p>
+						<b>Domicilio: </b>&nbsp;#if (${domicilio}) ${domicilio} #else
+						&nbsp; #end &nbsp;
+					</p> <br />
+				</td>
+			</tr>
+			<tr>
+				<td
+					style="padding: 8px; font-size: 11pt; color: #002060; font-family: BBVA Office Light; width: 100%;">
+
+					<p>2. DATOS DEL CLIENTE A EFECTOS DE LA EVALUACI&Oacute;N DE LA
+						IDONEIDAD:</p> <br />
+				</td>
+			</tr>
+			<tr>
+				<td
+					style="padding: 8px; font-size: 11pt; color: #002060; font-family: BBVA Office Light; width: 100%;">
+					<p>En el &aacute;mbito de la prestaci&oacute;n de un servicio
+						de asesoramiento en materia de inversi&oacute;n, y en cumplimiento
+						de la normativa vigente, el Banco ha evaluado su idoneidad a los
+						efectos de emitir una recomendaci&oacute;n id&oacute;nea para
+						usted.</p>
+				</td>
+			</tr>
+			<tr>
+				<td
+					style="padding: 8px; font-size: 11pt; color: #002060; font-family: BBVA Office Light; width: 100%;">
+					<p>Para ello, el Banco le ha solicitado una serie de
+						informaci&oacute;n relativa a sus objetivos de inversi&oacute;n,
+						su preferencia de riesgo, su situaci&oacute;n econ&oacute;mica y
+						sus conocimientos financieros.</p>
+				</td>
+			</tr>
+			<tr>
+				<td
+					style="padding: 8px; font-size: 11pt; color: #002060; font-family: BBVA Office Light; width: 100%;">
+					<p>Se resume a continuaci&oacute;n esta informaci&oacute;n:</p> <br />
+				</td>
+			</tr>
+			<tr>
+				<td
+					style="padding: 8px; font-size: 11pt; color: #002060; font-family: BBVA Office Light; width: 100%;">
+					<p>
+						<b>2.1. Objetivos de inversi&oacute;n</b>
+					</p> <br />
+					<p>a) Importe nominal inicial: &nbsp;#if (${impnominalini})
+						${impnominalini} #else &nbsp; #end &nbsp;</p>
+				</td>
+			</tr>
+			<tr>
+				<td
+					style="padding: 8px; font-size: 11pt; color: #002060; font-family: BBVA Office Light; width: 100%;">
+					<p>b) Aportaci&oacute;n mensual: &nbsp;#if (${aportmensual})
+						${aportmensual} #else &nbsp; #end &nbsp;</p>
+				</td>
+			</tr>
+			<tr>
+				<td
+					style="padding: 8px; font-size: 11pt; color: #002060; font-family: BBVA Office Light; width: 100%;">
+					<p>c) Horizonte temporal: &nbsp;#if (${horiztemp}) ${horiztemp}
+						#else &nbsp; #end &nbsp;</p> <br />
+				</td>
+			</tr>
+			<tr>
+				<td
+					style="padding: 8px; font-size: 11pt; color: #002060; font-family: BBVA Office Light; width: 100%;">
+					<p>
+						<b>2.2. Preferencias de riesgo</b>
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td
+					style="padding: 8px; font-size: 11pt; color: #002060; font-family: BBVA Office Light; width: 100%;">
+					<p>a) Con esta inversi&oacute;n, Ud. est&aacute; buscando:
+						&nbsp;#if (${objetivoa}) ${objetivoa} #else &nbsp; #end &nbsp;</p> <br />
+				</td>
+			</tr>
+			<tr>
+				<td
+					style="padding: 8px; font-size: 11pt; color: #002060; font-family: BBVA Office Light; width: 100%;">
+					<p>b) A 1 a&ntilde;o preferir&iacute;a una rentabilidad
+						potencial del tipo: &nbsp;#if (${objetivob}) ${objetivob} #else
+						&nbsp; #end &nbsp;</p> <br />
+				</td>
+			</tr>
+			<tr>
+				<td
+					style="padding: 8px; font-size: 11pt; color: #002060; font-family: BBVA Office Light; width: 100%;">
+					<p>c) Si pasado un a&ntilde;o su inversi&oacute;n perdiera un
+						10&#37; de su valor, Ud.: &nbsp;#if (${objetivoc}) ${objetivoc}
+						#else &nbsp; #end &nbsp;</p> <br />
+				</td>
+			</tr>
+			<tr>
+				<td
+					style="padding: 8px; font-size: 11pt; color: #002060; font-family: BBVA Office Light; width: 100%;">
+					<p>
+						<b>2.3. Situaci&oacute;n econ&oacute;mica</b>
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td
+					style="padding: 8px; font-size: 11pt; color: #002060; font-family: BBVA Office Light; width: 100%;">
+					<p>a) Ingresos netos anuales: &nbsp;#if (${ingresoanual})
+						${ingresoanual} #else &nbsp; #end &nbsp;</p>
+				</td>
+			</tr>
+			<tr>
+				<td
+					style="padding: 8px; font-size: 11pt; color: #002060; font-family: BBVA Office Light; width: 100%;">
+					<p>b) Capacidad de ahorro mensual: &nbsp;#if (${ahorromensual})
+						${ahorromensual} #else &nbsp; #end &nbsp;</p>
+				</td>
+			</tr>
+			<tr>
+				<td
+					style="padding: 8px; font-size: 11pt; color: #002060; font-family: BBVA Office Light; width: 100%;">
+					<p>c) Patrimonio financiero incluyendo esta inversi&oacute;n:
+						&nbsp;#if (${patrimonio}) ${patrimonio} #else &nbsp; #end &nbsp;</p>
+				</td>
+			</tr>
+			<tr>
+				<td
+					style="padding: 8px; font-size: 11pt; color: #002060; font-family: BBVA Office Light; width: 100%;">
+
+					<p>
+						<b>2.4. Conocimientos financieros </b>
+					</p> <br />
+				</td>
+			</tr>
+			<tr>
+				<td
+					style="padding: 8px; font-size: 11pt; color: #002060; font-family: BBVA Office Light; width: 100%;">
+					<p>a) Trabaja o ha trabajado en el sector financiero o en el
+						departamento financiero de alguna entidad: &nbsp;#if (${respa})
+						${respa} #else &nbsp; #end &nbsp;</p> <br />
+				</td>
+			</tr>
+			<tr>
+				<td
+					style="padding: 8px; font-size: 11pt; color: #002060; font-family: BBVA Office Light; width: 100%;">
+					<p>b) Nivel de estudios: &nbsp;#if (${respb}) ${respb} #else
+						&nbsp; #end &nbsp;</p> <br />
+				</td>
+			</tr>
+			<tr>
+				<td
+					style="padding: 8px; font-size: 11pt; color: #002060; font-family: BBVA Office Light; width: 100%;">
+					<p>c) Ha invertido en acciones o fondos de inversi&oacute;n dos
+						o m&aacute;s veces en los &uacute;ltimos cinco a&ntilde;os:
+						&nbsp;#if (${respc}) ${respc} #else &nbsp; #end &nbsp;</p>
+
+				</td>
+			</tr>
+
+			<div style="page-break-after: always;">&nbsp;</div>
+
+		</table>
+	</div>
+
+
+	<div style="position: relative; top: 80px;">
+		<!-- Pagina 2 -->
+
+		<table width="100%" cellspacing="0" style="margin-top: 11px;">
+			<tr>
+				<td
+					style="padding: 8px; font-size: 11pt; color: #002060; font-family: BBVA Office Light; width: 100%;">
+					<p>Le recordamos que con el objeto de que los instrumentos
+						financieros y activos recomendados sean id&oacute;neos para Ud.,
+						es de especial relevancia que los datos facilitados para la
+						elaboraci&oacute;n del presente test sean veraces, completos y
+						exactos, y respondan a sus circunstancias personales.</p>
+					<p>Asimismo, le rogamos que nos comunique cualquier
+						modificaci&oacute;n relevante respecto a la informaci&oacute;n
+						suministrada.</p> <br />
+				</td>
+			</tr>
+			<tr>
+				<td
+					style="padding: 8px; font-size: 11pt; color: #002060; font-family: BBVA Office Light; width: 100%;">
+					<p>3. RIESGO RECOMENDADO PARA LA INVERSI&Oacute;N:</p>
+				</td>
+			</tr>
+			<tr>
+				<td
+					style="padding: 8px; font-size: 11pt; color: #002060; font-family: BBVA Office Light; width: 100%;">
+					<p>Analizada la informaci&oacute;n facilitada por usted con el
+						objetivo de determinar su perfil de riesgo, y hacerle una
+						recomendaci&oacute;n id&oacute;nea y personalizada, ajustada a sus
+						caracter&iacute;sticas y objetivos de inversi&oacute;n, el Banco
+						considera que su perfil de riesgo es &nbsp;#if (${perfilRiesgo})
+						${perfilRiesgo} #else &nbsp; #end.&nbsp; Esto implica que se le
+						recomendar&aacute; una inversi&oacute;n #if (${inversion})
+						${inversion} #else &nbsp; #end.</p> <br />
+				</td>
+			</tr>
+			<tr>
+				<td
+					style="padding: 8px; font-size: 11pt; color: #002060; font-family: BBVA Office Light; width: 100%;">
+					<p>Dicho perfil de riesgo establece la asignaci&oacute;n de
+						activos que componen su cartera y que puede admitir un porcentaje
+						m&aacute;ximo estimativo de Renta Variable del &nbsp;#if
+						(${rentaVariable}) ${rentaVariable} #else &nbsp; #end,&nbsp; sin
+						que el car&aacute;cter de Renta Fija o Variable de los productos
+						sea el &uacute;nico elemento que determine el riesgo de la
+						inversi&oacute;n.</p>
+				</td>
+			</tr>
+			<tr>
+				<td
+					style="padding: 8px; font-size: 11pt; color: #002060; font-family: BBVA Office Light; width: 100%;">
+					<p>Sin embargo, si Ud. desea una inversi&oacute;n de menor
+						riesgo, podr&aacute; contratar cualquiera de los productos bajo
+						asesoramiento que presente riesgo inferior.</p>
+				</td>
+			</tr>
+			<tr>
+				<td
+					style="padding: 8px; font-size: 11pt; color: #002060; font-family: BBVA Office Light; width: 100%;">
+					<p>En cualquier caso, Ud. debe estar dispuesto a asumir riesgos
+						y p&eacute;rdidas.</p> <br />
+				</td>
+			</tr>
+			<tr>
+				<td
+					style="padding: 8px; font-size: 11pt; color: #002060; font-family: BBVA Office Light; width: 100%;">
+					<p>TRATAMIENTO DE DATOS PERSONALES</p>
+				</td>
+			</tr>
+			<tr>
+				<td
+					style="padding: 8px; font-size: 11pt; color: #002060; font-family: BBVA Office Light; width: 100%;">
+					<p>Los datos personales facilitados a Banco Bilbao Vizcaya
+						Argentaria (en adelante el Banco) por el CLIENTE en el presente
+						documento, ser&aacute;n incorporados a ficheros del Banco con la
+						finalidad de su utilizaci&oacute;n por &eacute;ste para la
+						evaluaci&oacute;n de idoneidad y posterior contrataci&oacute;n, en
+						su caso, de productos o servicios de inversi&oacute;n, siempre y
+						cuando el CLIENTE mantenga alguna relaci&oacute;n contractual con
+						el Banco.</p>
+				</td>
+			</tr>
+			<tr>
+				<td
+					style="padding: 8px; font-size: 11pt; color: #002060; font-family: BBVA Office Light; width: 100%;">
+					<p>Si a la fecha del presente documento el CLIENTE no
+						mantuviese relaci&oacute;n contractual con el Banco y en el plazo
+						de seis meses contados desde dicha fecha no formalizase ninguna
+						operaci&oacute;n o servicio de cualquier tipo con el Banco, los
+						datos del CLIENTE ser&aacute;n destruidos/cancelados por el Banco
+						al t&eacute;rmino de dicho plazo.</p>
+				</td>
+			</tr>
+			<tr>
+				<td
+					style="padding: 8px; font-size: 11pt; color: #002060; font-family: BBVA Office Light; width: 100%;">
+					<p>El responsable del tratamiento es Banco Bilbao Vizcaya
+						Argentaria con domicilio social en Plaza San Nicol&aacute;s, 4
+						&#45; 48005 BILBAO. El CLIENTE podr&aacute; ejercitar
+						gratuitamente los derechos de acceso, rectificaci&oacute;n,
+						cancelaci&oacute;n y oposici&oacute;n en cualquiera de sus
+						oficinas.</p> <br /> <br />
+				</td>
+			</tr>
+		</table>
+		<table width="100%" cellspacing="0" style="margin-top: 8px;">
+			<tr>
+				<td
+					style="padding: 8px; font-size: 11pt; color: #002060; font-family: BBVA Office Light; width: 100%;">
+					<p>
+						En &nbsp;#if (${poblacion}) ${poblacion} #else &nbsp; #end &nbsp;
+						a &nbsp;#if (${dia}) ${dia} #else &nbsp; #end de &nbsp;#if
+						(${mes}) ${mes} #else &nbsp; #end de &nbsp;#if (${ano}) ${ano}
+						#else &nbsp; #end
+						<!-- 						<div style="display: inline">a inline</div> -->
+						<!-- 						<div style="display: inline">a inline2</div> -->
+					</p> <br />
+				</td>
+			</tr>
+			#if (${signature}=="D" ||${signature}=="M")
+			<tr>
+				<td
+					style="padding: 8px; font-size: 11pt; color: #002060; font-family: BBVA Office Light; width: 100%;">
+					<b>EL CLIENTE</b>
+				</td>
+				<td
+					style="padding: 8px; font-size: 11pt; color: #002060; font-family: BBVA Office Light; width: 100%;">
+					<b>El banco</b>
+				</td>
+			</tr>
+			<tr>
+				<td
+					style="padding: 8px; font-size: 11pt; color: #002060; font-family: BBVA Office Light; width: 100%;">
+				</td>
+				<td
+					style="padding: 8px; font-size: 11pt; color: #002060; font-family: BBVA Office Light; width: 100%;">
+					<b>Por poder.</b>
+				</td>
+			</tr>
+			#else
+			<tr>
+				<td
+					style="padding: 8px; font-size: 11pt; color: #002060; font-family: Benton Sans BBVA Book; width: 100%;">
+					&nbsp;</td>
+			</tr>
+			<tr>
+				<td
+					style="padding: 8px; font-size: 11pt; color: #002060; font-family: Benton Sans BBVA Book; width: 100%;">
+					&nbsp;</td>
+			</tr>
+			#end
+
+			<tr>
+				<td
+					style="padding: 8px; font-size: 11pt; color: #002060; font-family: Benton Sans BBVA Book; width: 100%;">
+					El banco</td>
+			</tr>
+			<tr>
+				<td
+					style="padding: 8px; font-size: 11pt; color: #002060; font-family: Benton Sans BBVA Book; width: 100%;">
+					La banca</td>
+			</tr>
+
+		</table>
+	</div>
+</body>
+</html>

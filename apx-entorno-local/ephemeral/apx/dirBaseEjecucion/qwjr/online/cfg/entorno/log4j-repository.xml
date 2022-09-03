@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+        
+   <appender name="file" class="org.apache.log4j.RollingFileAppender">
+        <param name="File" value="/ENTORNO_LOCAL_APX/logs/qwjr_Repository.log" />
+        <param name="Append" value="true" />
+        <param name="MaxBackupIndex" value="10" />
+        <param name="MaxFileSize" value="10240KB" />
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss,SSS} %-5p [%t] %C - %m%n" />
+        </layout>           
+     </appender>
+        
+    <logger name="com.bbva.elara">
+        <level value="INFO" />
+    </logger>
+
+    <!-- APX ping log -->
+    <appender class="org.apache.log4j.RollingFileAppender" name="filePingSys">
+        <param name="File" value="/ENTORNO_LOCAL_APX/logs/qwjr_ActivityLog.log"/>
+        <param name="Append" value="true"/>
+        <param name="MaxFileSize" value="10240KB"/>
+        <param name="MaxBackupIndex" value="10"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss,SSS} [%t] %m%n"/>
+        </layout>
+    </appender>
+
+    <!-- APX validate -->
+    <appender class="org.apache.log4j.RollingFileAppender" name="fileTestSys">
+        <param name="File" value="/ENTORNO_LOCAL_APX/logs/qwjr_TestLog.log"/>
+        <param name="Append" value="true"/>
+        <param name="MaxFileSize" value="10240KB"/>
+        <param name="MaxBackupIndex" value="10"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss,SSS} [%t] %m%n"/>
+        </layout>
+    </appender>
+
+    <appender name="omegaActivity" class="com.bbva.elara.bundlor.semaas.connector.omega.OmegaAppender">
+        <param name="mrId" value="ActivityLog"/>
+        <param name="typeLog" value="core"/>
+        <param name="nameLog" value="ActivityLog"/>
+        <param name="environment" value="PD"/>
+    </appender>
+    
+    <appender name="omegaTest" class="com.bbva.elara.bundlor.semaas.connector.omega.OmegaAppender">
+        <param name="mrId" value="TestLog"/>
+        <param name="typeLog" value="core"/>
+        <param name="nameLog" value="TestLog"/>
+        <param name="environment" value="PD"/>
+    </appender>
+
+    <appender name="omegaRepository" class="com.bbva.elara.bundlor.semaas.connector.omega.OmegaAppender">
+        <param name="mrId" value="Repository"/>
+        <param name="typeLog" value="core"/>
+        <param name="nameLog" value="Repository"/>
+        <param name="environment" value="PD"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%C - %m%n" />
+        </layout>    
+    </appender>
+
+    <appender name="rhoAppender" class="com.bbva.elara.bundlor.semaas.connector.rho.RhoAppender">
+        <param name="mrId" value="RhoTraces"/>
+        <param name="environment" value="PD"/>
+    </appender>
+
+    <logger additivity="false" name="com.bbva.elara.bundlor.util.PinglogService">
+        <level value="INFO"/>
+        <appender-ref ref="filePingSys"/>
+        <appender-ref ref="omegaActivity"/>
+    </logger>
+
+    <logger additivity="false" name="com.bbva.elara.bundlor.util.ValidationData">
+        <level value="INFO"/>
+        <appender-ref ref="fileTestSys"/>
+        <appender-ref ref="omegaTest"/>
+    </logger>
+
+    <logger additivity="false" name="com.bbva.elara.bundlor.semaas.SpanLogService">
+        <level value="INFO"/>
+        <appender-ref ref="rhoAppender"/>
+    </logger>
+
+    <root>
+        <priority value="INFO" />
+        <appender-ref ref="file" />
+        <appender-ref ref="omegaRepository" />
+    </root>
+</log4j:configuration>

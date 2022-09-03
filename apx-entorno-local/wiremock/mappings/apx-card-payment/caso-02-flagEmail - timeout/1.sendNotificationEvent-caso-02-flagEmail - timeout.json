@@ -1,0 +1,24 @@
+{
+
+    "request": {
+      "method": "POST",
+      "url": "/v1/ns/pe.p12r.app-id-195722.dev/streams/apx-event-reqnotification:putRecord",
+      "bodyPatterns" : [ 	
+        {
+          "matchesJsonPath" : "$.[0].audit.contract.product[?(@.id=='M88Z00000503')]"
+        }
+      ] 
+     },
+    "response": {
+      "status": 401,
+      "fixedDelayMilliseconds": "20000",
+      "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE",
+        "Access-Control-Allow-Headers":  "Origin, X-Requested-With, Content-Type, Accept",
+        "Content-Type": "application/json",
+        "x-rho-traceid": "dc17f40e7989b8fa34c633da1bbf89d9"
+      }
+    }
+  }
+  

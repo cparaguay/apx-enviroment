@@ -1,0 +1,13 @@
+{
+    "authenticationResponse": {
+        "authenticationState": "OK",
+        "authenticationData": []
+    },
+    "backendUserResponse": {
+        "userType": "N",
+        "userStatus": "A1",
+        "clientId": "97170106",
+        "clientStatus": "A3",
+        "accountingTerminal": "&Z0X"
+    }
+}

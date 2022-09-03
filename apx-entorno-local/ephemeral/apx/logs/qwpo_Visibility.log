@@ -1,0 +1,3 @@
+2022-09-03 04:35:26,345 [EclipseGeminiBlueprintExtenderThread-143] [qwpo]com.bbva.elara.security.filter.SecurityHook - Starting security deprecated filter hook
+2022-09-03 04:35:26,351 [EclipseGeminiBlueprintExtenderThread-143] [qwpo]com.bbva.elara.security.filter.SecurityHook - Bundle categories specified: [library]
+2022-09-03 04:35:26,385 [EclipseGeminiBlueprintExtenderThread-143] [qwpo]com.bbva.elara.security.filter.SecurityHook - Defined filters [com.bbva.elara.utility, com.bbva.elara.control.WSControl, com.bbva.elara.configuration.manager.application.factory.ApplicationConfigurationServiceFactory, com.bbva.elara.aspect.LibraryMonitorizationAspect, com.bbva.elara.configuration.manager.ConfigurationManager] for category library
