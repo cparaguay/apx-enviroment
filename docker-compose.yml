@@ -58,6 +58,19 @@ services:
         volumes:
             - ./ephemeral/mongo/init_bmg_pctd_hiring_propensity_event.js:/docker-entrypoint-initdb.d/init_bmg_pctd_hiring_propensity_event.js
 
+    elasticsearch:
+        image: elasticsearch:7.17.9
+        container_name: elasticsearch
+        restart: on-failure
+        environment:
+            - discovery.type=single-node
+        ports:
+            - "9200:9200"
+            - "9300:9300"
+        networks:
+            - db-tier
+            - web-tier
+
 networks:
     web-tier:
         driver: bridge
